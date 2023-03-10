@@ -1,0 +1,44 @@
+
+
+
+
+@media (max-width: 360px) {
+  /* mobile */
+  .App {
+      text-align: center;
+      background-color: aquamarine;
+      margin-left: 6.6%;
+        margin-right: 6.6%;
+    }
+
+  .img-rick {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 95px;
+
+  }
+}
+
+
+@media (min-width: 360px) {
+
+  /* mobile */
+  .App {
+    text-align: center;
+    background-color: brown;
+    margin-left: 14.5%;
+    margin-right: 14.5%;
+    
+  }
+
+  .img-rick {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 86px;
+
+  }
+}
+
+
