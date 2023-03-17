@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
+import { Context } from "..";
 import MainBlock from "../page/MainBlock";
 import { route } from "../routes";
 import { MAIN_BLOCK } from "../utils/consts";
 
 const AppRouter = () => {
+  const { character } = useContext(Context);
+  console.log(character);
   return (
     <Routes>
       {route.map(({ path, Component }) => (

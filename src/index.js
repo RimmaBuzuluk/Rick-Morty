@@ -3,14 +3,21 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import CharacterStore from "./store/СharacterStore";
 // import CharacterStore from "./store/Сharacter";
 
-// export const Context = createContext(null);
+export const Context = createContext(null);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Context.Provider
+      value={{
+        character: new CharacterStore(),
+      }}
+    >
+      <App />
+    </Context.Provider>
   </React.StrictMode>
 );
 
