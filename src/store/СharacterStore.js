@@ -1,4 +1,5 @@
 import { makeAutoObservable } from "mobx";
+import pic from "../component/_image_.png";
 
 export default class CharacterStore {
   constructor() {
@@ -16,49 +17,49 @@ export default class CharacterStore {
       {
         id: 1,
         name: "Rick",
-        img: "8ba47105-cd74-4a47-8c49-5a1696e541ea",
+        img: pic,
       },
       {
         id: 2,
         name: "Iphone 12 pro",
         price: 2500,
         rating: 5,
-        img: "8ba47105-cd74-4a47-8c49-5a1696e541ea",
+        img: pic,
       },
       {
         id: 3,
         name: "Iphone 12 pro",
         price: 2500,
         rating: 5,
-        img: "8ba47105-cd74-4a47-8c49-5a1696e541ea",
+        img: pic,
       },
       {
         id: 4,
         name: "Iphone 12 pro",
         price: 2500,
         rating: 5,
-        img: "8ba47105-cd74-4a47-8c49-5a1696e541ea",
+        img: pic,
       },
       {
         id: 5,
         name: "Iphone 12 pro",
         price: 2500,
         rating: 5,
-        img: "8ba47105-cd74-4a47-8c49-5a1696e541ea",
+        img: pic,
       },
       {
         id: 6,
         name: "Iphone 12 pro",
         price: 2500,
         rating: 5,
-        img: "8ba47105-cd74-4a47-8c49-5a1696e541ea",
+        img: pic,
       },
       {
         id: 7,
         name: "Iphone 12 pro",
         price: 2500,
         rating: 5,
-        img: "8ba47105-cd74-4a47-8c49-5a1696e541ea",
+        img: pic,
       },
     ];
 

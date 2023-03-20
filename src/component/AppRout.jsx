@@ -6,8 +6,6 @@ import { route } from "../routes";
 import { MAIN_BLOCK } from "../utils/consts";
 
 const AppRouter = () => {
-  const { character } = useContext(Context);
-  console.log(character);
   return (
     <Routes>
       {route.map(({ path, Component }) => (
