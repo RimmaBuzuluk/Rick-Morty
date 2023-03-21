@@ -121,4 +121,109 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.buttom_back{
+  position: absolute;
+   display: flex;
+   margin-top: 25px;
+   margin-left: 54px;
+}
+
+.arrow{
+  /* position: absolute; */
+    left: 16.67%;
+    right: 16.67%;
+    top: 16.67%;
+    bottom: 16.67%;
+
+}
+
+.arrow_text{
+    margin-left: 12px;
+    /* font-family: 'Karla'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    
+  
+  
+    color: #000000;
+}
+.mainPic{
+  /* position: absolute; */
+    height: 300px;
+    width: 300px;
+    margin-top: 76px;
+    /* left: 557px;
+    right: 583px;
+    top: 76px; */
+  
+    /* background: url(.jpg);
+    /* Graybase / Gray 6 */
+  
+    border: 5px solid #F2F2F7;
+    border-radius: 150px; 
+  
+}
+
+.nameSanchez{
+  /* position: absolute; */
+    left: 32.64%;
+    right: 32.64%;
+    top: 38.28%;
+    bottom: 56.84%;
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    /* display: flex;
+    align-items: center;
+    text-align: center; */
+  
+    /* Basic / Black */
+  
+    color: #081F32;
+    padding-top: 16px;
+}
+.information{
+  /* Headline 6 */
+  margin-bottom: 48px;
+  margin-top: 48px;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+  
+    /* display: flex;
+    align-items: center; */
+    letter-spacing: 0.15px;
+  
+    /* Graybase / Gray 1 */
+  
+    color: #8E8E93;
+}
+.block{
+  /* 💡States */
+  
+  
+    /* position: absolute; */
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+  
+    /* 03. On Primary / High Emphasis */
+  
+    background: #FFFFFF;;
+}
+
+/* .block_inf{
+  width: 413px;
+  height: 64px;
+} */
+
 }

@@ -7,7 +7,6 @@ import "../App.css";
 
 const CharacterList = observer(() => {
   const { character } = useContext(Context);
-  console.log(character);
 
   return (
     <Row className="d-flex">
