@@ -20,8 +20,10 @@ const CharacterItem = ({ character }) => {
         border={"light"}
       >
         <Image width={200} height={150} src={character.img} />
-        <div>{character.name}</div>
-        <div>{character.person}</div>
+        <div className="BlockNamePerson">
+          <div className="nameC">{character.name}</div>
+          <div className="nameP">{character.person}</div>
+        </div>
       </Card>
     </Col>
   );

@@ -6,7 +6,6 @@
   /* mobile */
   .App {
       text-align: center;
-      background-color: aquamarine;
       margin-left: 6.6%;
       margin-right: 6.6%;
     }
@@ -41,15 +40,125 @@
   
     }
        
-    
-         input {
-           width: 93.7%;
-          border: 2px solid rgba(255, 255, 255, 0.5);
-            opacity: 0.8;
+   input {
+   width: 93.7%;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+   opacity: 0.8;
             overflow-y: auto;
-      
+  /* __________________________________________     */
       
          }
+
+
+.arrow{
+  left: 16.67%;
+  right: 16.67%;
+  top: 16.67%;
+  bottom: 16.67%;
+}
+
+.arrow_text{
+  margin-left: 12px;
+  /* font-family: 'Karla'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;}
+  
+.buttom_back{
+  position: absolute;
+   display: flex;
+   margin-top: 25px;
+   margin-left: 54px;
+}
+        
+  .mainPic{
+ 
+height: 148px;
+width: 148px;
+margin-top: 78px;
+border: 5px solid #F2F2F7;
+border-radius: 150px;
+ 
+  }
+
+.nameSanchez{
+margin-top: 35px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+color: #081F32;
+}
+
+.information{
+  /* "name" ☁️ */
+
+
+/* position: absolute; */
+/* left: 0%;
+right: 25.48%;
+top: 0%;
+bottom: 0%; */
+
+padding-top: 34px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #8E8E93;
+display: flex;
+align-items: center;
+letter-spacing: 0.15px;
+}
+
+.block{
+  margin-top: 25px;
+}
+
+
+
+.MainN{
+width: 50px;
+height: 24px;
+left: 16px;
+top: calc(50% - 24px/2 - 11px);
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.15px;
+
+/* Basic / Black */
+
+color: #081F32;
+
+}
+
+.ingChar{
+  width: 40px;
+  height: 20px;
+  left: 16px;
+  top: calc(50% - 20px/2 + 10px);
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  
+  letter-spacing: 0.25px;
+  
+  color: #6E798C;}
 }
 
 
@@ -121,11 +230,71 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.BlockNamePerson{
+  margin-right: 16px;
+  margin-left: 16px;
+}
+
 .buttom_back{
   position: absolute;
    display: flex;
    margin-top: 25px;
    margin-left: 54px;
+}
+
+.nameC{
+ 
+width: 208px;
+height: 30px;
+
+/* H6 - med 20 (30px, 0.15px) */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.15px;
+
+
+color: rgba(0, 0, 0, 0.87);
+
+mix-blend-mode: normal;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.nameP{
+  width: 208px;
+  height: 30px;
+  
+  /* H6 - med 20 (30px, 0.15px) */
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.25px;
+  
+  
+  color: rgba(0, 0, 0, 0.6);
+
+mix-blend-mode: normal;
+  
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 .arrow{
@@ -226,4 +395,42 @@
   height: 64px;
 } */
 
-}
+
+.MainN{
+  width: 53px;
+  height: 24px;
+  left: 16px;
+  top: calc(50% - 24px/2 - 11px);
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  
+  letter-spacing: 0.15px;
+  
+  /* Basic / Black */
+  
+  color: #081F32;
+  
+  }
+  
+  .ingChar{
+    width: 40px;
+    height: 20px;
+    left: 16px;
+    top: calc(50% - 20px/2 + 10px);
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    letter-spacing: 0.25px;
+    
+    color: #6E798C;}
+  }

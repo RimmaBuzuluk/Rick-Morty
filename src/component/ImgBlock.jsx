@@ -21,6 +21,7 @@ const ImgBlock = observer(() => {
     name: "Rick Sanchez",
     gender: "Male",
     status: "specie",
+    specie:"human",
     origin: "Eath(c-137)",
     type: "unknown",
     img: pic,
@@ -33,28 +34,28 @@ const ImgBlock = observer(() => {
       <div className="information">information</div>
       <div className="block">
         <div className="block_inf">
-          <div>Gender</div>
-          <div>{mainCharacter.gender}</div>
+          <div className="MainN">Gender</div>
+          <div className="ingChar">{mainCharacter.gender}</div>
           <hr />
         </div>
         <div className="block_inf">
-          <div>Gender</div>
-          <div>{mainCharacter.gender}</div>
+          <div className="MainN">Status</div>
+          <div className="ingChar">{mainCharacter.status}</div>
           <hr />
         </div>
         <div className="block_inf">
-          <div>Gender</div>
-          <div>{mainCharacter.gender}</div>
+          <div className="MainN">Specie</div>
+          <div className="ingChar" >{mainCharacter.specie}</div>
           <hr />
         </div>
         <div className="block_inf">
-          <div>Gender</div>
-          <div>{mainCharacter.gender}</div>
+          <div className="MainN">Origin</div>
+          <div className="ingChar">{mainCharacter.origin}</div>
           <hr />
         </div>
         <div className="block_inf">
-          <div>Gender</div>
-          <div>{mainCharacter.gender}</div>
+          <div className="MainN">Type</div>
+          <div className="ingChar">{mainCharacter.type}</div>
           <hr />
         </div>
       </div>
