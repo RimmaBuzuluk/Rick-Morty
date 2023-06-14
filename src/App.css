@@ -181,15 +181,15 @@ color: #081F32;
     
   }
 
-  .block_info{
+  .serch_border{
     position: relative;
     /* Field */
      margin-top: 16px;
       box-sizing: border-box;
 
       display: flex;
-        flex-direction: row;
-        align-items: center;
+        /* flex-direction: row;
+        align-items: center; */
         padding: 16px;
         gap: 8px;
 

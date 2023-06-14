@@ -1,37 +1,38 @@
 import React, { useContext, useState } from "react";
 import { Context } from "../index";
+import CharacterList from "./CharacterList";
+import Img_Serch from "./Vector.png";
 
 function Search() {
   const { character } = useContext(Context);
 
-  const [searchTerm, setSearchTerm] = useState('');//serchTerm зберігає значення поточного запросу
-  // const [matchingCharacters, setMatchingCharacters] = useState([]);
-
-  //сортування за алфавітом
-  const sortData=[...character.character].sort((a,b)=>{
-    return a.name>b.name ? 1:-1
-  })
-  // console.log(sortData)
+  const [searchCharactr, setSearchCharacter]=useState("")
 
 
-//сортування за пошуком
-
-const handleInputChange = (event) => {
-  setSearchTerm(event.target.value);
-};
-
-// console.log(handleInputChange)
-// console.log(character)
-
-const filteredData=sortData.filter(item => item.name.startsWith(searchTerm))
-console.log(filteredData)
+  const handleSearch=(event)=>{
+    setSearchCharacter(event.target.value)
+  }
 
 
-  return <input
-  type="text"
-  placeholder="Filter by name..."
-  onChange={handleInputChange}
-/>;
+
+  // const filterInputCharacter=character.filter((item)=>
+  // item.name.toLowerCase().includes(searchCharactr.toLowerCase())
+  // )
+
+
+  return(
+  <div> 
+    <div   className="serch_border">
+    <img className="img-search" src={Img_Serch} alt="My Image" />
+      <input 
+        type="text"
+        placeholder="Filter by name..."
+        value={searchCharactr}
+        onChange={handleSearch}
+      />
+  </div>
+<CharacterList  characterName={character}/>
+</div>)
 }
 
 export default Search;
