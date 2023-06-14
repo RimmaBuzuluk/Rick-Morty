@@ -12,13 +12,18 @@ function Search() {
   const handleSearch=(event)=>{
     setSearchCharacter(event.target.value)
   }
+console.log("charactor",[...character.character])
+
+ 
 
 
+  const filterInputCharacter=[...character.character].filter((item)=>
+  item.name.toLowerCase().includes(searchCharactr.toLowerCase())
+  )
 
-  // const filterInputCharacter=character.filter((item)=>
-  // item.name.toLowerCase().includes(searchCharactr.toLowerCase())
-  // )
 
+  console.log("filter",filterInputCharacter)
+  
 
   return(
   <div> 
@@ -31,7 +36,7 @@ function Search() {
         onChange={handleSearch}
       />
   </div>
-<CharacterList  characterName={character}/>
+<CharacterList  characterName={filterInputCharacter}/>
 </div>)
 }
 
