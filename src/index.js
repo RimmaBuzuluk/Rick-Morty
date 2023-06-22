@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import CharacterStore from "./store/СharacterStore";
+import CharacterStore from "./store/CharacterStore";
 // import CharacterStore from "./store/Сharacter";
 
 export const Context = createContext(null);
